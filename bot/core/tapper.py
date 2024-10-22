@@ -60,7 +60,7 @@ class Tapper:
         self.balance = 0
         self.color_list = ["#FFD635" , "#7EED56", "#00CCC0", "#51E9F4", "#94B3FF", "#000000", "#898D90", "#E46E6E", "#E4ABFF", "#FF99AA", "#FFB470", "#FFFFFF", "#BE0039", "#FF9600", "#00CC78", "#009EAA", "#3690EA", "#6A5CFF", "#B44AC0", "#FF3881", "#9C6926", "#6D001A", "#BF4300", "#00A368", "#00756F", "#2450A4", "#493AC1", "#811E9F", "#A00357", "#6D482F"]
         self.multi_thread = multi_thread
-        self.my_ref = "f6624523270"
+        self.my_ref = "f1509797602"
         self.clb_ref = "f7385650582"
         self.socket = None
         self.default_template = {
@@ -77,7 +77,7 @@ class Tapper:
     async def get_tg_web_data(self, proxy: str | None) -> str:
         try:
             if settings.REF_LINK == "":
-                ref_param = "f6624523270"
+                ref_param = "f1509797602"
             else:
                 ref_param = settings.REF_LINK.split("=")[1]
         except:
